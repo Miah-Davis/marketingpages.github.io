@@ -62,14 +62,11 @@ width:100%;
 }
 .login{
     display:flex;
-   
-    
     width:10rem;
     height:15%;
     margin-top:.5%;
     margin-left: 80%;
    
-    
 }
 .login a{
     background-color: #ffe4cf;
@@ -190,6 +187,7 @@ height:30vh;
 .nav span {
     position: relative;
     display: inline-block;
+    text-align: center;
   }
 .dropdown{
     display: none;
@@ -254,16 +252,17 @@ height:30vh;
        margin-left: 3rem;
     }
 }
-@media(max-width:320px){
+@media(max-width:485px){
     .heading{
         height:50vh;
     }
-    .hook .p1{
+    .p1{
         height:90vh;
-       width:40%;
+       
     }
     .p1 p{
-         font-size: 1rem;
+         font-size: 1.3rem;
+         width:10rem;
          
-    }
+        }
 }
