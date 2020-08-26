@@ -19,7 +19,9 @@
     width: max-content;
     margin:0 2rem;
 }
+
 /*Heading section*/
+
 .heading{
     background-color:#DC143C;
     color:#F5F5F5;
@@ -74,10 +76,12 @@ width:100%;
     border-radius: 10px;
     text-decoration: none;
 }
+
 /*Body section */
+
 .hook .p1{
     font-size: 2.7rem;
-    background-image:url(https://images.freeimages.com/images/small-previews/b17/chef-cooking-1383480.jpg) ;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://images.freeimages.com/images/small-previews/b17/chef-cooking-1383480.jpg) ;
     height:60vh;
     background-size:cover;
     display: flex;
@@ -116,7 +120,9 @@ width:100%;
     padding: 2rem;
     
 }
+
 /*About*/
+
 .about{
     display: flex;
     flex-flow: wrap row;
@@ -128,7 +134,9 @@ width:100%;
     padding: 2rem;
     
 }
+
 /*Footer section*/
+
 .end{
     background-color:#DC143C;
     color:#F5F5F5;
@@ -163,6 +171,7 @@ width:100%;
 .find i{
     font-weight: 400;
 }
+
 /*@media queries*/
 
     
@@ -229,6 +238,7 @@ height:30vh;
     margin-left: 2rem;
 }
 }
+
 @media(max-width:500px){
     .brand{
         width:40%;
@@ -252,6 +262,7 @@ height:30vh;
        margin-left: 3rem;
     }
 }
+
 @media(max-width:485px){
     .heading{
         height:50vh;
