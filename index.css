@@ -4,6 +4,7 @@
     margin: 0;
     max-width: 100%;
     border:1px solid teal;
+    font-family:  'Inter', sans-serif;
 }
 .html{
     font-size: 62.5%;
@@ -12,7 +13,7 @@
 .body{
     font-size: 1.8rem;
     line-height: 1.5;
-    font-family:  'Inter', sans-serif;
+    /* font-family:  'Inter', sans-serif; */
     color:#444;  
     background-color: white; 
     border: 1px white; 
@@ -50,7 +51,7 @@ width:100%;
 .nav{
     display:flex;
     justify-content: space-evenly;
-    width:63%;
+    width:64%;
     height:10%;
     margin-top:5rem;
     margin-left:.5rem;
@@ -62,7 +63,7 @@ width:100%;
 .nav a{
      background-color: #ffe4cf;
      
-    padding:.5rem;
+    padding:.35rem;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -193,16 +194,18 @@ height:30vh;
     -webkit-text-stroke:.5px black;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border-right: 1rem #DC143C;
     cursor: pointer;
     position: relative;
-  display: inline-block;
-  width:6.5rem;
+  display: flex;
+  width:7rem;
   border-radius: 1rem;
+  align-items: center;
+  margin-right:2rem;
 }
 .nav span {
     position: relative;
-    display: inline-block;
+    display: flex;
     text-align: center;
   }
 .dropdown{
